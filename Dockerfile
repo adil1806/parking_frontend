@@ -1,4 +1,4 @@
-FROM anjuna91/apachetomcat
+FROM tomcat:9.0.31
 MAINTAINER Anjuna
 USER root
 RUN mkdir /usr/local/tomcat/webapps/build/
